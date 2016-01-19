@@ -13,8 +13,8 @@
         <Label x:Name="totalAmountLabel" Content="Enter amount received:" HorizontalAlignment="Left" Margin="33,101,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <TextBox x:Name="amountBox" HorizontalAlignment="Left" Height="23" Margin="33,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
         <GridSplitter x:Name="gridSplitter" HorizontalAlignment="Left" Height="204" Margin="245,66,0,0" VerticalAlignment="Top" Width="5"/>
-        <Label x:Name="changeLabel" Content="Amount to return:" HorizontalAlignment="Left" Margin="288,42,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <TextBox x:Name="returnDisplay" HorizontalAlignment="Left" Height="23" Margin="288,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="changeLabel" Content="Amount to return:" HorizontalAlignment="Left" Margin="296,42,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="returnDisplay" HorizontalAlignment="Left" Height="23" Margin="296,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="denominationsTitleLabel" Content="Denominations:" HorizontalAlignment="Left" Margin="289,111,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label x:Name="quartersLabel" Content="# of Quarters" HorizontalAlignment="Left" Margin="292,144,0,0" VerticalAlignment="Top" Cursor="" FontWeight="Bold"/>
         <Label x:Name="dimesLabel" Content="# of Dimes" HorizontalAlignment="Left" Margin="292,175,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
@@ -24,10 +24,10 @@
         <TextBox x:Name="dimesDisplay" HorizontalAlignment="Left" Height="23" Margin="387,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
         <TextBox x:Name="nickelsDisplay" HorizontalAlignment="Left" Height="23" Margin="387,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
         <TextBox x:Name="penniesDisplay" HorizontalAlignment="Left" Height="23" Margin="387,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
-        <Button x:Name="calculateButton" Content="Calculate" HorizontalAlignment="Left" Margin="28,210,0,0" VerticalAlignment="Top" Width="181" FontWeight="Bold" Click="clearButton_Click" Background="#FFF11212"/>
+        <Button x:Name="calculateButton" Content="Calculate" HorizontalAlignment="Left" Margin="28,210,0,0" VerticalAlignment="Top" Width="181" FontWeight="Bold" Click="clearButton_Click" Background="#FFFB0000"/>
         <Button x:Name="clearButton" Content="Clear" HorizontalAlignment="Left" Margin="28,240,0,0" VerticalAlignment="Top" Width="181" FontWeight="Bold" Click="clearButton_Click_1" Background="#FF31F112"/>
         <Label x:Name="dollarsignTotal" Content="$" HorizontalAlignment="Left" Margin="16,64,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label x:Name="dollarsignAmount" Content="$" HorizontalAlignment="Left" Margin="17,127,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Label x:Name="dollarsignReturn" Content="$" HorizontalAlignment="Left" Margin="271,64,0,0" VerticalAlignment="Top" Cursor="$" FontWeight="Bold"/>
+        <Label x:Name="dollarsignReturn" Content="$" HorizontalAlignment="Left" Margin="274,64,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
     </Grid>
 </Window>
